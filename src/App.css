@@ -36,6 +36,8 @@ body.dark-mode {
   transition: background-color 0.3s ease, color 0.3s ease;
   padding: 2rem;
   font-family: inherit;
+  display: flex;
+  flex-direction: column;
 }
 
 .app-header {

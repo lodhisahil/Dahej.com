@@ -129,7 +129,7 @@ function App() {
     if (formData.gender === 'Male') score *= 1.2;
     else if (formData.gender === 'Female') score *= 1.1;
     else score -= 10;
-    
+
     score = Math.round(score);
 
     // Determine Category
@@ -323,6 +323,16 @@ function App() {
           </div>
         )}
       </main>
+
+      <footer style={{ textAlign: 'center', padding: '2rem 1rem 1rem', color: 'var(--text-muted)' }}>
+        <p>Made by Sahil Lodhi, Thank you!</p>
+        <br />
+        <p>Share me with your friends and have fun !!</p>
+        <br />
+        <p>Note: This is just a fun calculator and should not be taken seriously.</p>
+        <br />
+        <p>Copyright © 2026 Dahej.com. All rights reserved.</p>
+      </footer>
     </div>
   )
 }
