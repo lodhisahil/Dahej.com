@@ -166,8 +166,8 @@ function App() {
     <div className={`app-wrapper ${isDarkMode ? 'dark' : 'light'}`}>
       <header className="app-header">
         <div className="header-content">
-          <h1>Marriage Profile Calculator</h1>
-          <p>Find out your profile score based on your personal, professional, and asset details.</p>
+          <h1>Marriage Dahej Calculator</h1>
+          <p>Find out your profile dahej based on your personal, professional, and asset details.</p>
         </div>
         <button className="theme-toggle" onClick={toggleDarkMode}>
           {isDarkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
